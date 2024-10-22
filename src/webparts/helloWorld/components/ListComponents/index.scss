@@ -1,0 +1,119 @@
+.custom-column{
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.Completed{
+    background-color: #CAF0CC;
+}
+
+.Draft{
+    background-color: #FFEBC0;
+}
+
+.Rejected{
+    background-color: #FABBC3;
+}
+
+.Approved{
+    background-color: #F5CCCF;
+}
+
+.On{
+    background-color: #D4E7F6;
+}
+
+.nav{
+    padding: 5px;
+    border: 1px solid #EDEBE9;
+}
+
+.info{
+    .header-title{
+        display: flex;
+        align-items: center;
+        .icon-ctn{
+            background-color: #0078D4;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    
+}
+
+.table{
+    background-color:#FCFBFB ;
+}
+
+.delete{
+    background-color: #FABBC3;
+    border-radius: 50px;
+}
+
+.edit{
+    background-color:#CAF0CC;
+    border-radius: 50px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+}
+
+.text-status{
+    margin: 0;
+    height: fit-content;
+    margin-right: 3px;
+}
+
+.status-ctn{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin: 0px 5px;
+    background-color: #d4d4d4;
+}
+
+.icon-header{
+    margin: 0px 5px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.ctn-user{
+    padding: 5px 8px ;
+    background-color: #D4E7F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    .img-ctn{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+}
